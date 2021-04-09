@@ -1,0 +1,8 @@
+@mixin pageWidth {
+    width: 100%;
+    margin: 0 auto;
+    @include xl {
+        width: 1200px;
+    }
+
+}
